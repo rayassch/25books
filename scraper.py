@@ -4,7 +4,7 @@ import lxml.html
 
 # scrape_table function: gets passed an individual page to scrape
 def scrape_table(root):
-    rows = root.cssselect("table") [3]  # selects all <tr> blocks 
+    rows = root.cssselect("table") [4]  # selects all <tr> blocks 
     for row in rows:
         # Set up our data record - we'll need it later
         record = {}
@@ -43,4 +43,4 @@ def scrape_and_look_for_next_link(url):
 # ---------------------------------------------------------------------------
 #base_url = 'http://www.25books.com/'
 starting_url = 'http://www.25books.com/'
-#scrape_and_look_for_next_link(starting_url)
+scrape_and_look_for_next_link(starting_url)
