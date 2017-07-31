@@ -43,4 +43,4 @@ def scrape_and_look_for_next_link(url):
 # ---------------------------------------------------------------------------
 #base_url = 'http://www.25books.com/'
 starting_url = 'http://www.25books.com/'
-scrape_and_look_for_next_link(starting_url)
+#scrape_and_look_for_next_link(starting_url)
